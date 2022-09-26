@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Regristration Form</title>
+</head>
+<body>
+    <h1> Resgristration Form</h1>
+    <form action="process.php" method="post">
+        <p> 
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+        </p>
+        <p>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password">
+        </p>
+        <p>
+            <label for="password_confirm">Password Confirmation</label>
+            <input type="text" id="password_confirm" name="password_confirm">
+        </p>
+        <p>
+            <label for="birthday">Enter Birthday</label>
+            <input type="date" name="birthday" id="birthday">
+        </p>
+        <p>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">female</option>
+                <option value="decline">Prefer to not say</option>
+            </select>
+        </p>
+        <p>tell us more about you:</p>
+            <textarea name="more_info" id="more_info" cols="30" rows="10"></textarea>
+        <p>What is your favorite language</p>
+        <select name="language" id="language">
+            <option value="python">Python</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+        </select>
+        <p>
+        <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>
