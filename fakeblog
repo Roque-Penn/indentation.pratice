@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="Self defense is a flawed concept. The idea should be wholly discounted if you enjoy being alive. If your goal is to protect those you love, learn to fight instead.">
+    <title>Self Defense is fake news, learn to fight instead.</title>
+</head>
+<body>
+    <div>
+        <h1>Fighting and winning is better than defending</h1>
+        <img src="ufcfighter.jpeg" alt="women punching eachother">
+        <p>offense is better than defense. Punch someone i the face before they can punch you. its better to hit someone than to block, parry, or get punched in the face.</p>
+    </div>
+    <h2>Reasons to train MMA</h2>
+    <ul>
+        <li>Can Fight</li>
+        <li>Look good</li>
+        <li>Cauliflower ears</li>
+    </ul>
+    <h2>List of UFC champions who are self defense experts</h2>
+    <div>
+        <table width="1000px" border="1">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Fighter name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>No year</td>
+                    <td>No person exists</td>
+                    <td>No age</td>
+                    
+                </tr>
+                <tr>
+                    <td>No year</td>
+                    <td>No person exists</td>
+                    <td>No age</td>
+                </tr>
+                <tr>
+                    <td>No year</td>
+                    <td>No person exists</td>
+                    <td>No age</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <h3>There's noone listed in the table above. There is a good reason, see why below.</h3>
+    <a href="https://www.youtube.com/watch?v=LgK9Q0gvcJY">Whats better than good defese, good offense.</a>
+    <p>Will you reconsider learning to fight, anon?</p>
+<form action="process.php" method="post">
+    <select name="yes/no" id="choose">
+        <option value="yes">Yes!</option>
+        <option value="no">No, i'm lame.</option>
+    </select>
+    <p>Knowing this will change your life. Do you wish to continue?</p>
+    <p>
+        <label for="yes">Yes, i need to know.</label>
+        <input type="radio" id="yes">
+        <label for="no">No, i dont want the pill.</label>
+        <input type="radio" id="no">
+    </P>
+    <p>To contine, please enter your information below</p>
+    <p>
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name">
+    </P>
+    <p>
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name">
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+    </p>
+    <p>
+        <input type="submit" value="teach me how to fight, senpai.">
+    </p>
+    <p>Will you use this to be better?</p>
+    <p>
+        <label for="yes">Yes, Of course!</label>
+        <input type="checkbox" name="yes" id="yes_button">
+    </p>
+    <p>
+        <label for="no">Nah, me no believe.</label>
+        <input type="checkbox" name="no" id="no_button">
+    </p>
+    <p>
+        <input type="submit">
+    </p>
+</form>
+</body>
+</html>
