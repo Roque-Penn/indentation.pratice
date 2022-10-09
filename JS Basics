@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Rock Steady Portfolio</title>
+    <link rel="stylesheet" href="portstyle.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Rock Steady</h1>
+            <h3>Keeper of the mountains.</h3>
+        </div>
+        <div id="home-nav">
+            <h4><a href="#">Home</a></h4>
+            <ul>
+                <li>
+                    <a href="#">JavaScript Overview</a>
+                    <ul>
+                        <li><a href="#">Variable Declaration</a></li>
+                        <li><a href="#">Variable Assignment</a></li>
+                        <li><a href="#">Data Type</a></li>
+                        <li><a href="#">Conditionals</a></li>
+                        <li><a href="#">Loops</a></li>
+                        <li><a href="#">Functions</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Assignments</a></li>
+                <li><a href="#">Quiz</a></li>
+            </ul>
+        </div>
+        <div id="main-content">
+            <h3>JavaScript Basics</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ducimus voluptatibus architecto eligendi dicta soluta quos hic fuga assumenda distinctio rem quis, non magni sed nihil atque voluptate! Natus, sed.</p>
+            <ul>
+                <li>
+                    <a href="#">Variable Declration</a>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </li>
+                <li>
+                    <a href="#">Variable Assignment</a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </li>
+                <li>
+                    <a href="#">Data Types</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </li>
+                <li>
+                    <a href="#">Conditionals</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </li>
+                <li>
+                    <a href="#">Loops</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </li>
+                <li>
+                    <a href="#">Functions</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </li>
+            </ul>
+        </div>
+        <div id="footer">
+            <p>information:</p>
+            <a href="#">JavaScript!</a>
+        </div>
+    </div>
+</body>
+</html>
